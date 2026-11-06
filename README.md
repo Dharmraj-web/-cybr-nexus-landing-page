@@ -34,3 +34,24 @@ A responsive, futuristic cyborg-themed landing page built as a polished front-en
 
 ## Attribution / honesty
 This is a fictional creative concept. The page is not an official IIT Bombay Techfest website and does not claim to represent an actual product or organization. Google Fonts are loaded from Google Fonts when internet access is available; fallback fonts are defined.
+
+
+## Task 2 — Build in 3D
+
+The Task 2 upgrade adds a real-time interactive 3D cybernetic core using Three.js. Users can drag to rotate the object and scroll to zoom. The scene includes a faceted metallic core, illuminated energy nucleus, orbital rings, sensor nodes, star particles, and responsive rendering. It preserves the original CYBR//NEXUS identity from Task 1.
+
+### Technology
+- HTML5, CSS3, vanilla JavaScript
+- Three.js 0.180.0 via jsDelivr ES modules
+- OrbitControls for pointer/touch rotation and zoom
+- ResizeObserver for responsive canvas sizing
+
+### Run locally
+Because the 3D scene uses JavaScript modules, run the folder through a local server rather than opening `index.html` directly. In VS Code, use the Live Server extension, or run `python -m http.server 8000` in this folder and visit `http://localhost:8000`. Internet access is needed to load Three.js from the CDN.
+
+### Task 2 demo points
+1. Show the 3D core in the hero section.
+2. Drag the core to rotate it.
+3. Scroll over the scene to zoom in/out.
+4. Resize the browser to show responsive 3D rendering.
+5. Show that the original Task 1 sections and visual identity remain intact.

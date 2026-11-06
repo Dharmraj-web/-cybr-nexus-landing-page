@@ -33,6 +33,7 @@
       </div>
       <div class="hero-visual reveal" aria-label="Abstract futuristic cyborg illustration">
         <div class="visual-topline"><span>FIG. 01 — SYNTHETIC EVOLUTION</span><span>LIVE FEED <i></i></span></div>
+        <canvas id="cyber-3d" class="cyber-3d" aria-label="Interactive 3D cybernetic core. Drag to rotate."></canvas><div class="three-hint">DRAG TO ROTATE <span>·</span> SCROLL TO ZOOM</div>
         <div class="orbital orbital-one"></div><div class="orbital orbital-two"></div><div class="orbital orbital-three"></div>
         <div class="cyber-core"><div class="core-ring"></div><div class="core-ring ring-two"></div><div class="core-cross"></div><div class="core-face"><div class="face-side face-left"><span class="brow"></span><span class="eye"></span><span class="cheek"></span></div><div class="face-side face-right"><span class="brow"></span><span class="eye"></span><span class="cheek"></span></div><div class="face-nose"></div><div class="face-mouth"></div><div class="face-circuit circuit-a"></div><div class="face-circuit circuit-b"></div></div><div class="core-label">NX-07</div></div>
         <div class="visual-callout callout-left"><span class="callout-line"></span><small>NEURAL LINK</small><strong>98.7<span>%</span></strong></div>
@@ -62,6 +63,10 @@
   </main>
 
   <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark">C<span>+</span></span><span>CYBR<span class="brand-slash">//</span>NEXUS</span></a><span class="footer-note">A CONCEPT FOR THE NEXT GENERATION.</span><span class="footer-copy">© 2077 CYBR//NEXUS <span>—</span> FICTIONAL CONCEPT</span></footer>
+  <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}
+  </script>
+  <script type="module" src="three-scene.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
